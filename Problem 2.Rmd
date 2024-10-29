@@ -1,0 +1,70 @@
+---
+title: "HW 4 Problem 2"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+library(plotly)
+data("instacart")
+janitor::clean_names(instacart)
+
+```
+
+---
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Pie Chart of Top Ten First Product
+
+```{r}
+piefilter1 <- instacart %>%
+    filter(add_to_cart_order == 1) %>%
+    count(product_name) %>%
+    mutate(n = factor(n)) %>%
+    arrange(desc(n)) %>%
+    head (10)
+
+piefilter1 %>%
+      plot_ly(labels = ~product_name, values = ~n, 
+            type = 'pie')
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Bar Chart of Order Days
+
+```{r}
+days_of_week <- instacart %>%
+  select(order_id, order_dow) %>%
+  arrange(desc(order_dow)) %>%
+  mutate(order_dow = case_when(
+    order_dow == 0 ~ "Saturday",
+    order_dow == 1 ~ "Sunday",
+    order_dow == 2 ~ "Monday",
+    order_dow == 3 ~ "Tuesday",
+    order_dow == 4 ~ "Wednesday",
+    order_dow == 5 ~ "Thursday",
+    order_dow == 6 ~ "Friday",
+  )) %>%
+  count(order_dow)
+
+days_of_week %>%
+  plot_ly(x = ~order_dow, y = ~n, color = ~order_dow, 
+          type = "bar")
+
+```
+### Chart C
+
+```{r}
+
+```
