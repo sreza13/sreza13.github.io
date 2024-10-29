@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;sreza4081@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/sreza13/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/samiha-r1/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p><strong>Columbia University, Mailman School of Public Health</strong>
+New York, NY - May 2025 Master of Public Health – Population and Family
+Health | Applied Biostatistics and Public Health Data Science
+Certificate – GPA 4.12 | Honors/Awards: Public Health Leader
+Scholarship</p>
+<p><strong>University of Southern California, Keck School of
+Medicine</strong> Los Angeles, CA – May 2023 Bachelor of Science –
+Global Health, GPA: 3.91 | Honors/Awards: National Merit Scholar |
+Presidential Scholar | Summa Cum Laude | Societies: Alpha Epsilon
+Delta</p>
+</div>
+<div id="experience" class="section level2">
+<h2>Experience</h2>
+<div id="columbia-university---new-york-ny" class="section level3">
+<h3>Columbia University - New York, NY</h3>
+<p><strong>Lead Teaching Assistant – Biostatistics Department May 2026 –
+Present</strong></p>
+<ul>
+<li><p>Lead Teaching Assistant (TA) for Research Methods and Application
+– Quantitative Foundations in Columbia University Mailman School of
+Public Health’s Core curriculum</p></li>
+<li><p>Manage 24 Quantitative TAs and their corresponding lab sections
+through the semester</p></li>
+<li><p>Complete administrative needs to run the course and coordinate
+with faculty</p></li>
+<li><p>Competently address any complicated, sensitive issues or
+conflicts that arise within the student body and the larger TA team and
+answer questions as needed</p></li>
+</ul>
+<p><strong>Public Health Emergency Management Intern – Eastern
+Mediterranean Public Health Network – Amman, Jordan June 2023 -
+Present</strong></p>
+<ul>
+<li><p>Assist in the development and implementation of emergency
+response plans and protocols for public health crises, including
+infectious disease outbreaks, natural disasters, and other
+emergencies.</p></li>
+<li><p>Compile and analyze data related to public health emergencies,
+including epidemiological trends, resource utilization, and response
+effectiveness, to inform decision-making and policy
+development.</p></li>
+<li><p>Create a health emergency information system for organizations to
+use and adapt to their country’s needs during a humanitarian
+crisis</p></li>
+<li><p>Lead a manuscript on the political obstacles of humanitarian aid
+in public health contexts</p></li>
+<li><p>Presentation – Rapid Assessment Tools: Uses and Limitations in
+Public Health Emergencies – July 5th, 2024</p>
+<p>*Presented at EMPHNET’s Monthly Technical Discussion with regional
+public health leaders</p></li>
+</ul>
+<p><strong>Remote Researcher – Medicos Sin Fronteras – Tegucigalpa,
+Honduras May 2023 - Present</strong></p>
+<ul>
+<li><p>Analyze country-level data on dengue incidence to assess the
+efficacy of interventions</p></li>
+<li><p>Conduct interrupted time series analysis using SAS
+programming</p></li>
+</ul>
+<p><strong>Vice-President – Humanitarian Organization for Migration and
+Emergencies January 2023 – Present</strong></p>
+<ul>
+<li><p>Spearhead strategic planning initiatives, overseeing the
+development and execution of impactful projects and events focused on
+raising awareness about humanitarian emergencies and migration
+issues.</p></li>
+<li><p>Provide visionary leadership to a diverse team of officers and
+members, fostering a collaborative environment that promoted innovation,
+creativity, and inclusivity</p></li>
+<li><p>Cultivate partnerships with external organizations and
+stakeholders, facilitating meaningful collaborations to enhance the
+organization’s reach and education of humanitarian crises</p></li>
+</ul>
+<p><strong>Student Volunteer – Columbia University Food Pantry September
+2023 – Present</strong></p>
+<ul>
+<li><p>Assist in organizing and distributing food items to community
+members facing food insecurity, ensuring efficient and orderly
+operations of the student-run food pantry</p></li>
+<li><p>Collaborate with fellow volunteers to maintain cleanliness and
+organization of the pantry space, contribution to a welcoming and
+conducive environment for patrons</p></li>
+<li><p>Participate in inventory management tasks, including restocking
+shelves, checking expiration dates, and ensuring the availability of
+essential food items</p></li>
+</ul>
+</div>
+<div id="university-of-southern-california-los-angeles-ca"
+class="section level3">
+<h3>University of Southern California, Los Angeles, CA</h3>
+<p><strong>Tutor – Keck School of Medicine August 2021 - January
+2022</strong></p>
+<ul>
+<li><p>Instructed on introductory college biology and chemistry concepts
+for 120 hours</p></li>
+<li><p>Customized solutions and strategies for 14 individual
+students</p></li>
+</ul>
+<p><strong>Co-Investigator - “Beyond Clinics and Hospitals:
+Community-Based Care for Black Birthers in LA County” January 2022 – May
+2023</strong></p>
+<ul>
+<li><p>Collaborated with 7 diverse local organizations through
+one-to-one meetings to address community needs and insufficient
+data</p></li>
+<li><p>Successfully wrote a 3k grant proposal and IRB protocol in
+collaboration with 3 co-investigators and community partners</p></li>
+<li><p>Gathered and analyzed quantitative and qualitative data on black
+maternal care in Los Angeles using SPSS and Excel</p></li>
+<li><p>Collaborated with a team of 5 to write a manuscript for
+publication and presented abstract at The State of Black Health 2023
+National Conference – Center for Black Health and Equity</p></li>
+<li><p>Developed evidence-based materials such as PowerPoints and
+infographics for community organizations to use for grants</p></li>
+</ul>
+<p><strong>Student Research Assistant - Keck School of Medicine
+Department of Cancer Epidemiology December 2020 – August
+2022</strong></p>
+<ul>
+<li><p>Second author for “Characteristics of the microbiome and
+pediatric acute lymphoblastic leukemia, allergies, and type 1 diabetes:
+a systematic review and meta-analysis”</p></li>
+<li><p>Performed western blots and ELISA assays in wet-lab</p></li>
+<li><p>Screened over 3,500 abstracts and articles using Covidence
+software for meta-analysis</p></li>
+</ul>
+<p><strong>Undergraduate Liaison - Social Justice in Medicine Coalition
+January 2021 – May 2023</strong></p>
+<ul>
+<li><p>Facilitated medical student interest groups in social justice
+discussions and activism</p></li>
+<li><p>Advocated for student concerns with faculty and
+administration</p></li>
+</ul>
+<p><strong>Training Crew Chief for Emergency Medical Services of USC
+July 2021 – May 2023</strong></p>
+<ul>
+<li><p>Successfully trained 32 new EMTs over 2 years</p></li>
+<li><p>Prepared 4 semesters of class materials and exams on emergency
+medicine and Los Angeles protocol</p></li>
+<li><p>Led teams during shifts as an Advanced Provider which involved
+simultaneously providing medical treatment, addressing logistical and
+legal issues, collaborating with Los Angeles Fire, Police, and EMS for
+patient transfers, and field training new EMTs</p></li>
+<li><p>Transformed USC’s emergency medical services training to include
+health equity and spearheaded the DEI curriculum</p></li>
+</ul>
+<p><strong>Orientation Advisor January 2020 – January 2021</strong></p>
+<ul>
+<li><p>Developed and facilitated flexible programming as USC pivoted to
+the first entirely virtual orientation in its history</p></li>
+<li><p>Resolved student concerns in 1-on-1 meetings on registration and
+school policies</p></li>
+<li><p>Assisted 5300 students in transitioning into university life
+through personal and academic needs Student Research Assistant - Keck
+School of Medicine Department of Molecular Microbiology and
+Immunology</p></li>
+<li><p>Assisted with plasmid creation and prep for a project on Kaposi
+Sarcoma Herpes Virus’s mechanism of action</p></li>
+</ul>
+</div>
+<div id="partners-in-health-engage-boston-ma-remote"
+class="section level3">
+<h3>Partners in Health Engage, Boston, MA (Remote)</h3>
+<p><strong>Network Leadership Team Coach June 2023 –
+Present</strong></p>
+<ul>
+<li><p>Facilitate the development and execution of strategic campaigns
+for 3 Partners in Health Engage Teams, ensuring the achievement of
+ambitious goals through monthly 1-on-1 meetings with team
+leadership</p></li>
+<li><p>Collaborate with community organizers and public health
+professionals in the development of comprehensive training events,
+equipping over 250+ team leaders with the skills needed to drive
+impactful grassroots initiatives</p></li>
+<li><p>Spearhead DEI initiatives within Partners in Health Engage such
+as curriculum framework restructuring and implementation of new
+communication lines for PIHE’s network of 700+</p></li>
+<li><p>Lead and trained the California State Delegation of 23
+constituents to successfully schedule 11 congressional meetings in
+Washington DC on Partner in Health Engage’s annual Hill Day resulting in
+2 congressional co-sponsorships of the Paul Farmer Memorial Resolution
+(H.Res 204/S. Res 95)</p></li>
+</ul>
+<p><strong>USC Team Coordinator June 2022 – June 2023</strong></p>
+<ul>
+<li><p>Directed and optimized multifaceted advocacy, community-building,
+and fundraising campaigns resulting in substantial contributions to the
+Partners in Health Engage mission such as published letters to editors,
+$4000 raised through personal fundraising for global health initiatives,
+and congressional co-sponsorship of the Paul Farmer Memorial
+Resolution</p></li>
+<li><p>Managed a team of 25 members and ensured campaign goals were
+accomplished even through ambiguous political turmoil</p></li>
+</ul>
+<p><strong>USC Advocacy Lead June 2021 – June 2022</strong> * Liaised
+with liberal, conservative, and moderate congressional members to
+advocate for pivotal public and global health policies</p>
+<ul>
+<li><p>Managed and trained 14 members in congressional lobbying and
+successfully lobbied with 7 congressional offices</p></li>
+<li><p>Innovated letters-to-editors and budget appropriations action
+workshops and congressional call-a-thons to expand civic engagement in
+the community</p></li>
+</ul>
+<p><strong>USC Community Building/Education Lead February 2021 - June
+2021</strong></p>
+<ul>
+<li>Instructed through discussions on the intersection of global health
+and poverty, catalyzing engagement within the expansive USC and Los
+Angeles communities in support of the health as a human right
+movement.</li>
+</ul>
+</div>
+<div id="lifewest-ambulance-san-diego-ca" class="section level3">
+<h3>LifeWest Ambulance, San Diego, CA</h3>
+<p><strong>Emergency Medical Technician January 2021 – August
+2021</strong></p>
+<ul>
+<li><p>EMT Caregiver and driver for Basic Life Saving (BLS)
+cases</p></li>
+<li><p>Over 900 hours on-call, handling emergent and non-emergent
+interfacility patient transfers</p></li>
+<li><p>Provided medical care, monitored patient vitals, conducted field
+assessments, and assisted advanced providers</p></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

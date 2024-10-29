@@ -1,0 +1,168 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Education
+
+**Columbia University, Mailman School of Public Health**
+New York, NY - May 2025 
+Master of Public Health – Population and Family Health | Applied Biostatistics and Public Health Data Science Certificate – GPA 4.12 | Honors/Awards: Public Health Leader Scholarship 
+
+**University of Southern California, Keck School of Medicine**
+Los Angeles, CA – May 2023 
+Bachelor of Science – Global Health, GPA: 3.91 |
+Honors/Awards: National Merit Scholar | Presidential Scholar | Summa Cum Laude |
+Societies: Alpha Epsilon Delta
+
+
+## Experience 
+
+
+### Columbia University - New York, NY
+**Lead Teaching Assistant – Biostatistics Department May 2026 – Present**
+
+* Lead Teaching Assistant (TA) for Research Methods and Application – Quantitative Foundations in Columbia University Mailman School of Public Health’s Core curriculum
+
+*	Manage 24 Quantitative TAs and their corresponding lab sections through the semester
+
+*	Complete administrative needs to run the course and coordinate with faculty
+
+*	Competently address any complicated, sensitive issues or conflicts that arise within the student body and the larger TA team and answer questions as needed
+
+**Public Health Emergency Management Intern – Eastern Mediterranean Public Health Network – Amman, Jordan June 2023 - Present**
+
+* Assist in the development and implementation of emergency response plans and protocols for public health crises, including infectious disease outbreaks, natural disasters, and other emergencies.
+
+*	Compile and analyze data related to public health emergencies, including epidemiological trends, resource utilization, and response effectiveness, to inform decision-making and policy development.
+
+*	Create a health emergency information system for organizations to use and adapt to their country’s needs during a humanitarian crisis
+
+*	Lead a manuscript on the political obstacles of humanitarian aid in public health contexts
+
+*	Presentation –  Rapid Assessment Tools: Uses and Limitations in Public Health Emergencies – July 5th, 2024
+
+    *Presented at EMPHNET’s Monthly Technical Discussion with regional public health leaders 
+    
+**Remote Researcher – Medicos Sin Fronteras – Tegucigalpa, Honduras May 2023 - Present**
+
+*	Analyze country-level data on dengue incidence to assess the efficacy of interventions
+
+* Conduct interrupted time series analysis using SAS programming
+
+**Vice-President – Humanitarian Organization for Migration and Emergencies January 2023 – Present**
+
+* Spearhead strategic planning initiatives, overseeing the development and execution of impactful projects and events focused on raising awareness about humanitarian emergencies and migration issues.
+
+* Provide visionary leadership to a diverse team of officers and members, fostering a collaborative environment that promoted innovation, creativity, and inclusivity
+
+* Cultivate partnerships with external organizations and stakeholders, facilitating meaningful collaborations to enhance the organization's reach and education of humanitarian crises
+
+**Student Volunteer – Columbia University Food Pantry September 2023 – Present**
+
+* Assist in organizing and distributing food items to community members facing food insecurity, ensuring efficient and orderly operations of the student-run food pantry
+
+* Collaborate with fellow volunteers to maintain cleanliness and organization of the pantry space, contribution to a welcoming and conducive environment for patrons
+
+* Participate in inventory management tasks, including restocking shelves, checking expiration dates, and ensuring the availability of essential food items
+
+
+### University of Southern California, Los Angeles, CA
+**Tutor – Keck School of Medicine August 2021 - January 2022** 
+
+* Instructed on introductory college biology and chemistry concepts for 120 hours 
+
+* Customized solutions and strategies for 14 individual students
+
+**Co-Investigator - “Beyond Clinics and Hospitals: Community-Based Care for Black Birthers in LA County” January 2022 – May 2023**
+
+* Collaborated with 7 diverse local organizations through one-to-one meetings to address community needs and insufficient data
+
+* Successfully wrote a 3k grant proposal and IRB protocol in collaboration with 3 co-investigators and community partners 
+
+* Gathered and analyzed quantitative and qualitative data on black maternal care in Los Angeles using SPSS and Excel
+
+* Collaborated with a team of 5 to write a manuscript for publication and presented abstract at The State of Black Health 2023 National Conference – Center for Black Health and Equity
+
+* Developed evidence-based materials such as PowerPoints and infographics for community organizations to use for grants
+
+**Student Research Assistant - Keck School of Medicine Department of Cancer Epidemiology December 2020 – August 2022**
+
+* Second author for “Characteristics of the microbiome and pediatric acute lymphoblastic leukemia, allergies, and type 1 diabetes: a systematic review and meta-analysis”
+
+* Performed western blots and ELISA assays in wet-lab
+
+* Screened over 3,500 abstracts and articles using Covidence software for meta-analysis
+
+**Undergraduate Liaison - Social Justice in Medicine Coalition January 2021 – May 2023**
+
+* Facilitated medical student interest groups in social justice discussions and activism
+
+* Advocated for student concerns with faculty and administration
+
+**Training Crew Chief for Emergency Medical Services of USC July 2021 – May 2023**
+
+* Successfully trained 32 new EMTs over 2 years
+
+* Prepared 4 semesters of class materials and exams on emergency medicine and Los Angeles protocol
+
+* Led teams during shifts as an Advanced Provider which involved simultaneously providing medical treatment, addressing logistical and legal issues, collaborating with Los Angeles Fire, Police, and EMS for patient transfers, and field training new EMTs
+
+* Transformed USC’s emergency medical services training to include health equity and spearheaded the DEI curriculum 
+
+**Orientation Advisor January 2020 – January 2021**
+
+* Developed and facilitated flexible programming as USC pivoted to the first entirely virtual orientation in its history
+
+* Resolved student concerns in 1-on-1 meetings on registration and school policies
+
+* Assisted 5300 students in transitioning into university life through personal and academic needs
+Student Research Assistant - Keck School of Medicine Department of Molecular Microbiology and Immunology 
+
+* Assisted with plasmid creation and prep for a project on Kaposi Sarcoma Herpes Virus’s mechanism of action
+
+
+### Partners in Health Engage, Boston, MA
+
+**Network Leadership Team Coach June 2023 – Present**
+
+* Facilitate the development and execution of strategic campaigns for 3 Partners in Health Engage Teams, ensuring the achievement of ambitious goals through monthly 1-on-1 meetings with team leadership
+
+* Collaborate with community organizers and public health professionals in the development of comprehensive training events, equipping over 250+ team leaders with the skills needed to drive impactful grassroots initiatives
+
+* Spearhead DEI initiatives within Partners in Health Engage such as curriculum framework restructuring and implementation of new communication lines for PIHE’s network of 700+
+
+* Lead and trained the California State Delegation of 23 constituents to successfully schedule 11 congressional meetings in Washington DC on Partner in Health Engage’s annual Hill Day resulting in 2 congressional co-sponsorships of the Paul Farmer Memorial Resolution (H.Res 204/S. Res 95) 
+
+**USC Team Coordinator June 2022 – June 2023**
+
+* Directed and optimized multifaceted advocacy, community-building, and fundraising campaigns resulting in substantial contributions to the Partners in Health Engage mission such as published letters to editors, $4000 raised through personal fundraising for global health initiatives, and congressional co-sponsorship of the Paul Farmer Memorial Resolution
+
+* Managed a team of 25 members and ensured campaign goals were accomplished even through ambiguous political turmoil 
+
+**USC Advocacy Lead June 2021 – June 2022**
+*	Liaised with liberal, conservative, and moderate congressional members to advocate for pivotal public and global health policies
+
+*	Managed and trained 14 members in congressional lobbying and successfully lobbied with 7 congressional offices
+
+*	Innovated letters-to-editors and budget appropriations action workshops and congressional call-a-thons to expand civic engagement in the community
+
+**USC Community Building/Education Lead February 2021 - June 2021**
+
+*	Instructed through discussions on the intersection of global health and poverty, catalyzing engagement within the expansive USC and Los Angeles communities in support of the health as a human right movement.
+
+
+### LifeWest Ambulance, San Diego, CA
+
+**Emergency Medical Technician January 2021 – August 2021**
+
+*	EMT Caregiver and driver for Basic Life Saving (BLS) cases
+
+*	Over 900 hours on-call, handling emergent and non-emergent interfacility patient transfers
+
+*	Provided medical care, monitored patient vitals, conducted field assessments, and assisted advanced providers
+
+

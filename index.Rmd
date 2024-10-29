@@ -1,0 +1,17 @@
+---
+title: "Samiha's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# Welcome to Samiha's personal website
+
+# About me
+<img src="./pictures/selfpicture.jpg" style = "width:50%">
+ 
+Hi all! I’m **Samiha Reza** I am a second year MPH student :)
+
+##Link to my Resume
+
+[Resume](resume.html)
