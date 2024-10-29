@@ -4,13 +4,16 @@ navbar:
   title: "Home"
   right:
     - text: "About"
-      href: about.html
+      href: https://sreza13.github.io/#Welcome_to_Samiha%E2%80%99s_personal_website
     - icon: fa-envelope fa-lg
       href: mailto:<sreza4081@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/sreza13/
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/samiha-r1/
+    - text: "Dashboard"
+    - href: "Problem 2.html"
+      
       
 output:
   html_document:
