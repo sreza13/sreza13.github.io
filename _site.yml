@@ -10,7 +10,7 @@ navbar:
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/samiha-r1/
     - text: "Dashboard"
-      href: problem_2.html
+      href: dashboard.html
     - text: "Resume"
       href: resume.html
       
