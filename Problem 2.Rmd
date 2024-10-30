@@ -54,7 +54,7 @@ days_of_week <- instacart %>%
     order_dow == 3 ~ "Tuesday",
     order_dow == 4 ~ "Wednesday",
     order_dow == 5 ~ "Thursday",
-    order_dow == 6 ~ "Friday",
+    order_dow == 6 ~ "Friday"
   )) %>%
   count(order_dow)
 
@@ -63,8 +63,18 @@ days_of_week %>%
           type = "bar")
 
 ```
-### Chart C
+### Histogram of Time of Day Order for Saturday
 
 ```{r}
 
+
+
+tod_order <-instacart %>%
+  filter(order_dow == 0) %>%
+  select(order_id, order_hour_of_day, order_dow) %>%
+  mutate(order_dow = case_when(
+    order_dow == 0 ~ "Saturday")) 
+
+tod_order %>%
+    plot_ly(x = ~order_hour_of_day, type = "histogram")
 ```
