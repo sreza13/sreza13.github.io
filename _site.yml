@@ -13,8 +13,6 @@ navbar:
       href: dashboard.html
     - text: "Resume"
       href: resume.html
-    - text: "Problem 2 Raw Data"
-      href: dashboard.Rmd
       
       
 output:
