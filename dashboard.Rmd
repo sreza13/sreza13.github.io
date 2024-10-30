@@ -38,7 +38,8 @@ piefilter1 %>%
 
 ```
 
-Column {data-width=350}
+This pie chart looks at the top ten most ordered first items, with bananas being the overwhelming majority. 
+
 -----------------------------------------------------------------------
 
 ### Bar Chart of Order Days
@@ -63,6 +64,8 @@ days_of_week %>%
           type = "bar")
 
 ```
+This bar chart looks at number of products ordered per day of the week. Saturday has the most products ordered while Tuesday and Wednesday have the least. 
+
 ### Histogram of Time of Day Order for Saturday
 
 ```{r}
@@ -78,3 +81,5 @@ tod_order <-instacart %>%
 tod_order %>%
     plot_ly(x = ~order_hour_of_day, type = "histogram")
 ```
+This histogram looks at the distribution of orders based on time of day. Most purchases occured in the late morning and early afternoon. 
+

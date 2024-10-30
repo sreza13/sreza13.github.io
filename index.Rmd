@@ -12,6 +12,6 @@ output:
  
 Hi all! I’m **Samiha Reza** I am a second year MPH student :)
 
-Link to my Resume
+Link to my Resume:
 
 [Resume](resume.html)
