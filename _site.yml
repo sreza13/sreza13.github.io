@@ -18,3 +18,9 @@ navbar:
 output:
   html_document:
     theme: yeti
+    
+output:
+  dashboard.html:
+    flexdashboard::flex_dashboard:
+      orientation: columns
+      vertical_layout: fill

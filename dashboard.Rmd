@@ -6,6 +6,7 @@ output:
     vertical_layout: fill
 ---
 
+
 ```{r setup, include=FALSE}
 library(flexdashboard)
 knitr::opts_chunk$set(echo = TRUE)
@@ -40,6 +41,7 @@ piefilter1 %>%
 
 This pie chart looks at the top ten most ordered first items, with bananas being the overwhelming majority. 
 
+Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Bar Chart of Order Days
@@ -66,6 +68,8 @@ days_of_week %>%
 ```
 This bar chart looks at number of products ordered per day of the week. Saturday has the most products ordered while Tuesday and Wednesday have the least. 
 
+Column {data-width=350} 
+-----------------------------------------------------------------------
 ### Histogram of Time of Day Order for Saturday
 
 ```{r}
