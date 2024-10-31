@@ -4,6 +4,7 @@ output:
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    source: embeded
 ---
 
 
@@ -25,7 +26,7 @@ Column {data-width=650}
 
 ### Pie Chart of Top Ten First Product
 
-```{r}
+```{r, echo = FALSE}
 piefilter1 <- instacart %>%
     filter(add_to_cart_order == 1) %>%
     count(product_name) %>%
@@ -46,7 +47,7 @@ Column {data-width=350}
 
 ### Bar Chart of Order Days
 
-```{r}
+```{r, echo = FALSE}
 days_of_week <- instacart %>%
   select(order_id, order_dow) %>%
   arrange(desc(order_dow)) %>%
@@ -72,7 +73,7 @@ Column {data-width=350}
 -----------------------------------------------------------------------
 ### Histogram of Time of Day Order for Saturday
 
-```{r}
+```{r, echo = FALSE}
 
 
 
